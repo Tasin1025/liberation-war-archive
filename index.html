@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liberation War Archive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-zinc-700 text-white p-4 text-center">
+        <h1 class="text-3xl font-bold">Liberation War Archive</h1>
+        <p class="text-lg">Preserving the history of Bangladesh's Liberation War</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-gray-900 text-white p-3">
+        <ul class="flex justify-center space-x-6">
+            <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
+            <li><a href="documents.html" class="hover:text-yellow-300">Documents</a></li>
+            <li><a href="interviews.html" class="hover:text-yellow-300">Interviews</a></li>
+            <li><a href="gallery.html" class="hover:text-yellow-300">Gallery</a></li>
+            <li><a href="contact.html" class="hover:text-yellow-300">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="text-center py-10">
+        <h2 class="text-4xl font-semibold">Welcome to the Liberation War Archive</h2>
+        <p class="text-gray-700 mt-2">Explore historical documents, photographs, and interviews</p>
+        <img src="assets/images/header.jpg" alt="Liberation War" class="w-3/4 mx-auto mt-4 rounded-lg shadow-lg">
+    </section>
+
+    <!-- Featured Sections -->
+    <section class="grid grid-cols-1 gap-6 p-6">
+        <!-- Document List -->
+        <h2 class="text-2xl font-semibold text-center mb-4">Browse Documents</h2>
+                    
+        <div id="documentsList" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-white p-4 rounded shadow" data-type="declaration" data-date="1971">
+                <img src="assets/images/photo-1.jpeg" alt="Document Image" class="w-full h-40 object-cover rounded">
+                <h3 class="text-xl font-bold mt-2">Declaration of Independence</h3>
+                <p class="text-gray-700">Official announcement of Bangladesh’s independence.</p>
+                <p class="text-sm text-gray-500">Date: March 26, 1971 | Source: Government Records</p>
+                <a href="document-detail.html?id=1" class="text-blue-600 hover:underline">Read More</a>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow" data-type="treaty" data-date="1971">
+                <img src="assets/images/photo-2.jpeg" alt="Document Image" class="w-full h-40 object-cover rounded">
+                <h3 class="text-xl font-bold mt-2">Mujibnagar Government Proclamation</h3>
+                <p class="text-gray-700">Formation of the first provisional government.</p>
+                <p class="text-sm text-gray-500">Date: April 17, 1971 | Source: Archives</p>
+                <a href="document-detail.html?id=2" class="text-blue-600 hover:underline">Read More</a>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow" data-type="official" data-date="post-1971">
+                <img src="assets/images/photo-3.jpg" alt="Document Image" class="w-full h-40 object-cover rounded">
+                <h3 class="text-xl font-bold mt-2">Official Surrender Document</h3>
+                <p class="text-gray-700">The surrender document signed on December 16, 1971.</p>
+                <p class="text-sm text-gray-500">Date: December 16, 1971 | Source: Military Records</p>
+                <a href="document-detail.html?id=3" class="text-blue-600 hover:underline">Read More</a>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow" data-type="treaty" data-date="pre-1971">
+                <img src="assets/images/photo-4.jpg" alt="Document Image" class="w-full h-40 object-cover rounded">
+                <h3 class="text-xl font-bold mt-2">Six-Point Movement Document</h3>
+                <p class="text-gray-700">A crucial demand for Bangladesh's autonomy.</p>
+                <p class="text-sm text-gray-500">Date: 1966 | Source: Political Records</p>
+                <a href="document-detail.html?id=4" class="text-blue-600 hover:underline">Read More</a>
+            </div>
+        </div>
+          
+        <!-- Interview Section -->
+    <section class="p-6">
+        <h2 class="text-2xl font-semibold text-center mb-6">Featured Interviews</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+           <!-- Interview 1 -->
+            <div class="bg-white p-4 rounded shadow">
+                <h3 class="text-xl font-bold mt-2">Freedom Fighter - Abdul Rahman</h3>
+                <p class="text-gray-700">A veteran of the 1971 war, Abdul Rahman shares his memories of the battlefield.</p>
+                <p class="text-sm text-gray-500">Date: February 15, 2024 | Interviewer: Liberation War Archive</p>
+                <a href="https://www.youtube.com/watch?v=HtewgndJ0eA" target="_blank">
+                    <img src="https://img.youtube.com/vi/HtewgndJ0eA/0.jpg" alt="YouTube Thumbnail" class="w-full mt-4 rounded shadow-lg">
+                </a>
+            </div>
+
+            <!-- Interview 2 -->
+            <div class="bg-white p-4 rounded shadow">
+                <h3 class="text-xl font-bold mt-2">Survivor - Rokeya Begum</h3>
+                <p class="text-gray-700">Rokeya Begum recounts her experiences as a civilian during the war.</p>
+                <p class="text-sm text-gray-500">Date: March 10, 2024 | Interviewer: Liberation War Archive</p>
+                <a href="https://www.youtube.com/watch?v=jm3AY8vTEM0" target="_blank">
+                    <img src="https://img.youtube.com/vi/jm3AY8vTEM0/0.jpg" alt="YouTube Thumbnail" class="w-full mt-4 rounded shadow-lg">
+                </a>
+            </div>
+
+            <!-- Interview 3 -->
+            <div class="bg-white p-4 rounded shadow">
+                <h3 class="text-xl font-bold mt-2">Journalist - Zahirul Islam</h3>
+                <p class="text-gray-700">A war-time journalist, Zahirul Islam details the role of media in 1971.</p>
+                <p class="text-sm text-gray-500">Date: January 25, 2024 | Interviewer: Liberation War Archive</p>
+                <a href="https://www.youtube.com/watch?v=jm3AY8vTEM0" target="_blank">
+                    <img src="https://img.youtube.com/vi/jm3AY8vTEM0/0.jpg" alt="YouTube Thumbnail" class="w-full mt-4 rounded shadow-lg">
+                </a>
+            </div>
+        </div>
+    </section>
+      <!-- Gallery Grid -->
+      <h2 class="p-6 text-center text-2xl font-semibold mb-4">Browse Photos</h2>
+      <section id="gallery" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
+          <!-- Image 1 -->
+          <div class="bg-white p-4 rounded shadow" data-category="events">
+              <img src="assets/images/photo-1.jpeg" alt="Event Image" class="w-full h-40 object-cover rounded">
+              <h3 class="text-lg font-bold mt-2">Victory Day Celebration</h3>
+              <a href="assets/images/photo-1.jpeg" download class="bg-blue-600 text-white px-4 py-1 rounded mt-2 inline-block text-center">Download</a>
+          </div>
+  
+          <!-- Image 2 -->
+          <div class="bg-white p-4 rounded shadow" data-category="locations">
+              <img src="assets/images/photo-2.jpeg" alt="Location Image" class="w-full h-40 object-cover rounded">
+              <h3 class="text-lg font-bold mt-2">Surrender at Racecourse Ground</h3>
+              <a href="assets/images/photo-2.jpeg" download class="bg-blue-600 text-white px-4 py-1 rounded mt-2 inline-block text-center">Download</a>
+          </div>
+  
+          <!-- Image 3 -->
+          <div class="bg-white p-4 rounded shadow" data-category="people">
+              <img src="assets/images/photo-3.jpg" alt="People Image" class="w-full h-40 object-cover rounded">
+              <h3 class="text-lg font-bold mt-2">Freedom Fighters in 1971</h3>
+              <a href="assets/images/photo-3.jpg" download class="bg-blue-600 text-white px-4 py-1 rounded mt-2 inline-block text-center">Download</a>
+          </div>
+  
+          <!-- Image 4 -->
+          <div class="bg-white p-4 rounded shadow" data-category="events">
+              <img src="assets/images/photo-4.jpg" alt="Event Image" class="w-full h-40 object-cover rounded">
+              <h3 class="text-lg font-bold mt-2">Declaration of Independence</h3>
+              <a href="assets/images/photo-4.jpg" download class="bg-blue-600 text-white px-4 py-1 rounded mt-2 inline-block text-center">Download</a>
+          </div>
+      </section>
+    </section>
+
+        <!-- Contact Form -->
+        <section class="p-6 max-w-lg mx-auto bg-white shadow-md rounded-md mt-6">
+            <h2 class="text-2xl font-semibold text-center mb-4">Send Us a Message</h2>
+            <form onsubmit="showAlert(event)">
+                <label class="block mb-2">Name:</label>
+                <input type="text" class="w-full p-2 border rounded" placeholder="Your Name" >
+    
+                <label class="block mt-4 mb-2">Email:</label>
+                <input type="email" class="w-full p-2 border rounded" placeholder="Your Email" >
+    
+                <label class="block mt-4 mb-2">Subject:</label>
+                <input type="text" class="w-full p-2 border rounded" placeholder="Subject" >
+    
+                <label class="block mt-4 mb-2">Message:</label>
+                <textarea class="w-full p-2 border rounded" rows="4" placeholder="Your Message" ></textarea>
+    
+                <label class="block mt-4 mb-2">Attach a File (optional):</label>
+                <input type="file" class="w-full p-2 border rounded">
+    
+                <button type="submit" class="mt-4 bg-blue-600 text-white px-4 py-2 rounded w-full hover:bg-blue-700">Send Message</button>
+            </form>
+        </section>
+    
+        <!-- Contact Info -->
+        <section class="text-center p-6">
+            <h2 class="text-2xl font-semibold mb-2">Contact Information</h2>
+            <p>Email: tasinrahman1025@gmail.com</p>
+            <p>Phone: +880 1234-567890</p>
+            <p>Address: Khilgaon, Dhaka, Bangladesh</p>
+        </section>
+    
+        <script>
+            function showAlert(event) {
+                alert("Your message has been submitted successfully!");
+            }
+        </script>
+    
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white text-center p-4 mt-6">
+        <p>&copy; 2025 Liberation War Archive. All Rights Reserved.  MD Tasin Rahman</p>
+    </footer>
+
+</body>
+</html>

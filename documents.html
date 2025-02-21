@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documents - Liberation War Archive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <header class="bg-zinc-700 text-white p-4 text-center">
+        <h1 class="text-3xl font-bold">Documents Archive</h1>
+        <p class="text-lg">Browse through historical records of the Liberation War</p>
+    </header>
+
+    <nav class="bg-gray-900 text-white p-3">
+        <ul class="flex justify-center space-x-6">
+            <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
+            <li><a href="documents.html" class="hover:text-yellow-300">Documents</a></li>
+            <li><a href="interviews.html" class="hover:text-yellow-300">Interviews</a></li>
+            <li><a href="gallery.html" class="hover:text-yellow-300">Gallery</a></li>
+            <li><a href="contact.html" class="hover:text-yellow-300">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h2 class="text-2xl font-semibold text-center mb-4 p-6">Browse Documents</h2>
+
+
+        <!-- Document List -->
+        <div id="documentsList" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-white p-4 rounded shadow" data-type="declaration" data-date="1971">
+                <img src="assets/images/photo-1.jpeg" alt="Document Image" class="w-full h-40 object-cover rounded">
+                <h3 class="text-xl font-bold mt-2">Declaration of Independence</h3>
+                <p class="text-gray-700">Official announcement of Bangladesh’s independence.</p>
+                <p class="text-sm text-gray-500">Date: March 26, 1971 | Source: Government Records</p>
+                <a href="document-detail.html?id=1" class="text-blue-600 hover:underline">Read More</a>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow" data-type="treaty" data-date="1971">
+                <img src="assets/images/photo-2.jpeg" alt="Document Image" class="w-full h-40 object-cover rounded">
+                <h3 class="text-xl font-bold mt-2">Mujibnagar Government Proclamation</h3>
+                <p class="text-gray-700">Formation of the first provisional government.</p>
+                <p class="text-sm text-gray-500">Date: April 17, 1971 | Source: Archives</p>
+                <a href="document-detail.html?id=2" class="text-blue-600 hover:underline">Read More</a>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow" data-type="official" data-date="post-1971">
+                <img src="assets/images/photo-3.jpg" alt="Document Image" class="w-full h-40 object-cover rounded">
+                <h3 class="text-xl font-bold mt-2">Official Surrender Document</h3>
+                <p class="text-gray-700">The surrender document signed on December 16, 1971.</p>
+                <p class="text-sm text-gray-500">Date: December 16, 1971 | Source: Military Records</p>
+                <a href="document-detail.html?id=3" class="text-blue-600 hover:underline">Read More</a>
+            </div>
+
+            <div class="bg-white p-4 rounded shadow" data-type="treaty" data-date="pre-1971">
+                <img src="assets/images/photo-4.jpg" alt="Document Image" class="w-full h-40 object-cover rounded">
+                <h3 class="text-xl font-bold mt-2">Six-Point Movement Document</h3>
+                <p class="text-gray-700">A crucial demand for Bangladesh's autonomy.</p>
+                <p class="text-sm text-gray-500">Date: 1966 | Source: Political Records</p>
+                <a href="document-detail.html?id=4" class="text-blue-600 hover:underline">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white text-center p-4 mt-6">
+        <p>&copy; 2025 Liberation War Archive. All Rights Reserved. MD Tasin Rahman</p>
+    </footer>
+
+</body>
+</html>

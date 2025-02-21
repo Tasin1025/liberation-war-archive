@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Liberation War Archive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-zinc-700 text-white p-4 text-center">
+        <h1 class="text-3xl font-bold">Contact Us</h1>
+        <p class="text-lg">We'd love to hear from you</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-gray-900 text-white p-3">
+        <ul class="flex justify-center space-x-6">
+            <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
+            <li><a href="documents.html" class="hover:text-yellow-300">Documents</a></li>
+            <li><a href="interviews.html" class="hover:text-yellow-300">Interviews</a></li>
+            <li><a href="gallery.html" class="hover:text-yellow-300">Gallery</a></li>
+            <li><a href="contact.html" class="hover:text-yellow-300">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contact Form -->
+    <section class="p-6 max-w-lg mx-auto bg-white shadow-md rounded-md mt-6">
+        <h2 class="text-2xl font-semibold text-center mb-4">Send Us a Message</h2>
+        <form onsubmit="showAlert(event)">
+            <label class="block mb-2">Name:</label>
+            <input type="text" class="w-full p-2 border rounded" placeholder="Your Name" >
+
+            <label class="block mt-4 mb-2">Email:</label>
+            <input type="email" class="w-full p-2 border rounded" placeholder="Your Email" >
+
+            <label class="block mt-4 mb-2">Subject:</label>
+            <input type="text" class="w-full p-2 border rounded" placeholder="Subject" >
+
+            <label class="block mt-4 mb-2">Message:</label>
+            <textarea class="w-full p-2 border rounded" rows="4" placeholder="Your Message" ></textarea>
+
+            <label class="block mt-4 mb-2">Attach a File (optional):</label>
+            <input type="file" class="w-full p-2 border rounded">
+
+            <button type="submit" class="mt-4 bg-blue-600 text-white px-4 py-2 rounded w-full hover:bg-blue-700">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="text-center p-6">
+        <h2 class="text-2xl font-semibold mb-2">Contact Information</h2>
+        <p>Email: tasinrahman1025@gmail.com</p>
+        <p>Phone: +880 1234-567890</p>
+        <p>Address: Khilgaon, Dhaka, Bangladesh</p>
+    </section>
+
+    <script>
+        function showAlert(event) {
+            alert("Your message has been submitted successfully!");
+        }
+    </script>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white text-center p-4 mt-6">
+        <p>&copy; 2025 Liberation War Archive. All Rights Reserved. MD Tasin Rahman</p>
+    </footer>
+
+</body>
+</html>
